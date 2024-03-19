@@ -16,6 +16,8 @@
     </dependency>
   </dependencies>
   <properties>
+    <sonar.host.url>http://34.125.25.56:9000/</sonar.host.url>
+    <sonar.login>sqa_6da864b4393830aeddbf6a21667dd16475bba968</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <build>
