@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Release Repos</name>
+      <url>http://34.125.147.57:8081/repository/first-release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot Repos</name>
+      <url>http://34.125.147.57:8081/repository/first-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <properties>
     <sonar.host.url>http://34.125.25.56:9000/</sonar.host.url>
     <sonar.login>sqa_6da864b4393830aeddbf6a21667dd16475bba968</sonar.login>
